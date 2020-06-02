@@ -33,11 +33,10 @@ class Main extends PureComponent {
   render() {
     const HomePage = () => {
       return(
-          <Home 
-              dish={this.props.dishes.filter((dish) => dish.featured)[0]}
-              promotion={this.props.promotions.filter((promo) => promo.featured)[0]}
-              leader={this.props.leaders.filter((leader) => leader.featured)[0]}
-          />
+       <Home 
+    dish={this.props.dishes.filter((dish) => dish.featured)[0]} 
+    promotion={this.props.promotions.filter((promo) => promo.featured)[0]} 
+    leader={this.props.leaders.filter((leader) => leader.featured)[0]}/>
       );
     }
 
