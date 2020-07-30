@@ -4,14 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-How to start 
+##How to start 
 
 Download public and db.json folder and save it then use this commond 
 
 json-server --watch db.json -d 2000 -p 3000
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+
 
 ### `npm test`
 
