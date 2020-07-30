@@ -7,6 +7,7 @@ In the project directory, you can run:
 How to start 
 
 Download public and db.json folder and save it then use this commond 
+
 json-server --watch db.json -d 2000 -p 3000
 
 The page will reload if you make edits.<br />
